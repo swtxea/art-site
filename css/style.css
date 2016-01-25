@@ -91,22 +91,31 @@ a:active {
   color: lightcoral;
 }
 
-.quote-b:hover {
-  background: linear-gradient(#111, transparent 90%),
-              linear-gradient(0deg, #111, transparent 90%),
-              #ffa949 url('../img/basic.gif') no-repeat top;
-  background-size: cover;
-}
 /* Main Styles --------------------- */
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
 
 .main-header {
   padding-top: 170px;
-  height: 100vh;
-  background: linear-gradient(#ffa949, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-              #ffa949 url('../img/sart.png') no-repeat center;
+  height: 75vh;
+  background: /*linear-gradient(#ff0, transparent 90%),*/
+              linear-gradient(0deg, #fff, transparent 2%),
+              #ffa949 url('../img/header.png') no-repeat center;
   min-height: 50%;
   background-size: cover;
+
 }
 
 .nav-section {
@@ -134,14 +143,6 @@ a:active {
     text-decoration: none;
 }
 
-.contact {
-  list-style: none;
-  padding: 0;
-}
-/* Change the link color to #111 (black) on hover */
-.nav-section a:hover {
-    background-color: #111;
-}
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
@@ -151,228 +152,9 @@ a:active {
   padding-bottom: 10px;
 }
 
-.filter {
-  list-style-type: none;
-  overflow: hidden;
-  width: 100%;
-  height: 60px;
-  padding: 14px 16px !important;
-
-}
-
-.filter li {
-  float: left;
-
-}
-.intro {
-  font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6;  
-}
-
-.primary-content,
-.main-header,
-.main-footer {
-  text-align: center;
-}
-
-.primary-content {
-  padding-top: 25px;
-  padding-bottom: 40px;
-}
-
-.resume  h3 {
-  margin-bottom: 0px;
-}
-
-.secondary-content {
-  padding-top: 40px;
-  padding-bottom: 70px;
-  border-bottom: 2px solid #dfe2e6;
-}
-
-.secondary-content img {
-  max-height: 50vh;
-
-}
-.callout {
-  font-size: 1.25em;
-  border-bottom: 3px solid;
-  padding: 0 9px 3px;
-  margin-top: 20px;
-  display: inline-block;
-}
-
-
-.main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
-}
-
-.t-border {
-  border-top: 2px solid #dfe2e6;
-}
-
-.b-border {
-  border-bottom: 2px solid #dfe2e6;
-}
-
-.primary-content, 
-.secondary-content {
-  width: 75%;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: auto;
-  max-width: 960px;
-}
-
-.arrow {
-  width: 50px;
-  margin-top: 150px;
-}
-.imac {
-  background: url('../img/imac.png') no-repeat top;
-  background-size: contain;
-  width: 250px;
-  height: 302.5px; /* 1:1.21 ratio between width and height*/
-  padding: 6px 1px 0px 0px;
-}
-
-.quote-b {
-  padding-top: 20px;
-  margin: auto;
-  width: 240px;
-  height: 137.5px;
-  padding-top: ;
-  text-align: center;
-  background: #111 url('../img/basic.gif') no-repeat top;
-  background-size: cover;
-  text-align: center;
-  margin-top: 0;
-  border-radius: 10px;
-}
-
-.quote-a {
-  padding-top: 20px;
-  margin: auto;
-  width: 240px;
-  height: 137.5px;
-  padding-top: ;
-  text-align: center;
-  background-color: #111;
-  background-size: cover;
-  text-align: center;
-  margin-top: 0;
-  border-radius: 10px;
-}
-
-.quote-a h1 {
-  font-size: .85em;
-}
-
-.badge {
-    display: block !important;
-    color: grey;
-    background: none;
-    padding: 0px !important;
-    font-size: 15px;
-  }
-
-.dev::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Development";
-}
-
-/* Floated Columns ------------------ */
-
-.block-a,
-.block-b {
-  width: 46.5%;
-}
-
-.block-a {
-  float: left;
-}
-
-.block-b {
-  float: right;
-}
-
-/* Float Clearfix ------------------ */
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Media Queries -------------------- */
-
-@media (max-width: 1024px) {
-  .primary-content,
-  .secondary-content {
-    width: 90%;
-  }
-
-}
-
-@media (min-width: 1144px) {
-  .badge {
-  padding: 5px !important;
-  display: inline !important;
-  background-color: red;
-  border-radius: 4px; 
-  float: right;
-  color: white;
-  font-size: 15px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav li {
-  
-  }
-  .primary-content,
-  .secondary-content {
-    width: 100%;
-    padding: 20px;
-    border-top: none;
-  }
-
-  .main-header {
-    max-height: 100vh;
-    padding: 50px 25px 0;
-  }
-  .title {
-    font-size: 1.5rem;
-    border: none;
-  }
-  h1 {
-    font-size: 2rem;
-    line-height: 1.1;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-  .arrow {
-    width: 50px;
-  }
-  .intro {
-    font-size: 1rem;
-  }
-  .block-a,
-  .block-b {
-    float: none;
-    width: 100%;
-  }
-  .b
-  .main-footer {
-    padding: 20px 0;
-  }
+footer p {
+  font-size: .75em;
+  line-height: .75em;
 }
 
 /* Functions */
@@ -417,135 +199,13 @@ a:active {
 
 }
 
-.white-t  p,
-.white-t h1,
-.white-t h2,
-.white-t h3{
-  color: white;
+.t-border {
+  border-top: 2px solid #dfe2e6;
 }
 
-.white-t a:hover,
-.white-t a:link {
-  color: white;
+.b-border {
+  border-bottom: 2px solid #dfe2e6;
 }
-.under {
-  color: white;
-  font-size: 1.625rem; /* 26px/16px */
-  letter-spacing: .065em;
-  font-weight: 200;
-  border-bottom: 2px solid;
-  padding-bottom: 10px;
-}
-
-.no-upper {
-  text-transform: none;
-}
-/* This is a class that prevents text from becoming transparent with its container */
-/* Psudo Classes */
-.dev::before {
-  background-image: url('../img/dev.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 33px;
-  content: "";
-}
-
-.stand-up::before{
-  background-image: url('../img/stand-up.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 33px;
-  content: "";
-}
-
-.rock-climbing::before {
-  background-image: url('../img/rock-climbing.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 33px;
-  content: "";
-}
-
-.tutoring::before {
-  background-image: url('../img/tutoring.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 33px;
-  content: "";
-}
-
-.travel::before {
-  background-image: url('../img/travel.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 33px;
-  content: "";
-}
-
-.other::before {
-  background-image: url('../img/other.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 33px;
-  content: "";
-}
-
-.dev::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Development";
-}
-
-.stand-up::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Stand-up";
-}
-
-.rock-climbing::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Rock Climbing";
-}
-
-.tutoring::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Tutoring";
-}
-
-.travel::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Travel";
-}
-
-.other::after {
-  display: block !important;
-  color: grey;
-  background: none;
-  padding: 0px !important;
-  font-size: 15px;
-  content: "Other";
-}
-
-
-
 
 
 
