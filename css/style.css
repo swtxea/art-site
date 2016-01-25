@@ -60,7 +60,6 @@ h4 {
 
 img {
   max-width: 100%;
-  border-radius: 10px;
 }
 
 ul,
@@ -143,6 +142,24 @@ a:active {
     text-decoration: none;
 }
 
+.primary-content div {
+  width: 33%;
+  height: 200px;
+  padding: 20px;
+  float: left;
+  display: inline-block;
+}
+
+.primary-content img {
+  max-height: 160px;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.primary-content div:not(:nth-child(3n+3)){
+  border-right: 2px dashed rgba(128,128,128, 0.5);
+}
+
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
@@ -154,7 +171,6 @@ a:active {
 
 footer p {
   font-size: .75em;
-  line-height: .75em;
 }
 
 /* Functions */
@@ -169,8 +185,8 @@ footer p {
   vertical-align: middle;
 }
 
-.space {
-  margin-left: 10px;
+.space-b {
+  margin-bottom: 20px !important;
 }
 /*makes a space between buttons or images*/
 
