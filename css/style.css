@@ -233,9 +233,12 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  .nav li {
-  
+  .nav-selcetion li a {
+    font-size: .6em;
   }
+  
+
+
   .primary-content div {
     width: 100%;
     border-right: none !important;
@@ -243,6 +246,7 @@ footer p {
     float: left;
     display: inline-block;
   }
+  
   .primary-content,
   footer,
   .secondary-content {
