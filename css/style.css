@@ -207,6 +207,56 @@ footer p {
   border-bottom: 2px solid #dfe2e6;
 }
 
+/*Media Queries*/
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+  }
 
+}
+
+@media (max-width: 768px) {
+  .nav li {
+  
+  }
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  .main-header {
+    max-height: 100vh;
+    padding: 50px 25px 0;
+  }
+  .title {
+    font-size: 1.5rem;
+    border: none;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .arrow {
+    width: 50px;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .block-a,
+  .block-b {
+    float: none;
+    width: 100%;
+  }
+  .b
+  .main-footer {
+    padding: 20px 0;
+  }
+}
 
 
