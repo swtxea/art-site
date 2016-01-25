@@ -236,6 +236,13 @@ footer p {
   .nav li {
   
   }
+  .primary-content div {
+    width: 100%;
+    border-right: none !important;
+    padding: 20px;
+    float: left;
+    display: inline-block;
+  }
   .primary-content,
   .secondary-content {
     width: 100%;
