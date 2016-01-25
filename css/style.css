@@ -151,9 +151,9 @@ a:active {
 }
 
 .primary-content img {
-  max-height: 160px;
-  vertical-align: middle;
+  max-height: 100%;
   max-width: 100%;
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
 }
 
 .primary-content div:not(:nth-child(3n+3)){
