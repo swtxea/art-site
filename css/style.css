@@ -153,6 +153,7 @@ a:active {
 .primary-content img {
   max-height: 100%;
   max-width: 100%;
+  vertical-align: middle;
   box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -286,5 +287,13 @@ footer p {
     padding: 20px 0;
   }
 }
+
+/*Pseudo Classes*/
+.primary-content div::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+} /*This insures that the gallery images are vertically aligned*/
 
 
