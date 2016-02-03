@@ -74,46 +74,42 @@ li {
 
 /* Pseudo-classes ------------------ */
 
-li a:link {
+.nav-section a:link {
   color: #666;
   text-decoration: none;
   display: block;
 }
 
-li a:visited {
+.nav-section a:visited {
   color: #666;
   display: block;
 }
 
-li a:hover {
+.nav-section a:hover {
   color: #666;
   display: block;
 }
 
-li a.selected {
+.nav-section a.selected {
   color: #fff;
   display: block;
 }
 
 a:link {
-  color: #666;
+  color: rgb(255, 169, 73);
   text-decoration: none;
-  display: block;
 }
 
 a:visited {
-  color: #666;
-  display: block;
+  color: rgb(255, 169, 73);
 }
 
 a:hover {
-  color: #666;
-  display: block;
+  color: rgba(255, 169, 73, .4);
 }
 
-a.selected {
-  color: #fff;
-  display: block;
+a:active {
+  color: lightcoral;
 }
 
 li:hover {
