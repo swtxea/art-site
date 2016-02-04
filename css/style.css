@@ -127,6 +127,7 @@ li.selected {
 
 .nav-section {
   width: 25%;
+  max-width: 300px !important;
   position: fixed;
   left: 0px;
   height: 100vh;
@@ -141,6 +142,15 @@ li.selected {
 
 }
 
+.gallery div {
+  width: auto;
+  height: 300px;
+  margin: 4px;
+  float: left;
+  display: inline-block;
+  box-shadow: 2px 2px 5px gray;
+}
+
 .nav-section-secondary {
   width: 100%;
   display: block;
@@ -153,11 +163,7 @@ li.selected {
 }
 
 .selected-secondary {
-  background-color: #c30;
-}
-
-.selected-secondary a {
-  color: #fff;
+  border-left: 7px solid #c30 !important;
 }
 
 
@@ -185,20 +191,29 @@ li.selected {
 }
 
 .thumb {
-  width: 30px;
+  height: 20px;
   vertical-align: middle;
+  margin-right: 10px
 }
 
 .space-b {
   margin-bottom: 20px !important;
 }
 /*makes a space between buttons or images*/
-
+.latest {
+  display: inline;
+}
 .center {
     margin: auto;
     width: 60%;
     padding: 10px;
     text-align: center;
+}
+
+footer {
+  margin: auto;
+  width: 60%;
+  text-align: center;
 }
 
 .radial {
