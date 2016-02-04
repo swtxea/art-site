@@ -142,7 +142,7 @@ li.selected {
 
 }
 
-.gallery div {
+.gallery img {
   width: auto;
   height: 300px;
   margin: 4px;
@@ -257,6 +257,14 @@ footer {
     border-left: 7px solid #e6e6e6;
   }
 
+  .gallery img {
+  width: auto;
+  height: 100px;
+  margin: 4px;
+  float: left;
+  display: inline-block;
+  box-shadow: 2px 2px 5px gray;
+  }
 }
 
 @media (max-width: 768px) {
