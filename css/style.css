@@ -126,8 +126,7 @@ li.selected {
 /* Main Styles --------------------- */
 
 .nav-section {
-  width: 25%;
-  max-width: 300px !important;
+  width: 300px;
   position: fixed;
   left: 0px;
   height: 100vh;
@@ -168,11 +167,11 @@ li.selected {
 
 
 .primary-content {
-  width: 75%;
+  width: auto;
   display: block;
   padding: 16px;
   background-color: #f2f2f2;
-  margin-left: 25%;
+  margin-left: 300px;
 }
 
 .main-header {
@@ -257,13 +256,17 @@ footer {
     border-left: 7px solid #e6e6e6;
   }
 
+  .nav-section {
+    width: 25%;
+  }
+
+  .primary-content {
+    width: 75%;
+    margin-left: 25%;
+  }
+
   .gallery img {
-  width: auto;
-  height: 100px;
-  margin: 4px;
-  float: left;
-  display: inline-block;
-  box-shadow: 2px 2px 5px gray;
+    height: 100px;
   }
 }
 
