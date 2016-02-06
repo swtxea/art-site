@@ -1,0 +1,32 @@
+/* Animations */
+
+.one:hover {
+	/*-webkit-animation: rotate 1s ease-in 1;*/
+}
+
+.over:hover {
+	-webkit-animation: slide-down 1s forwards 1;
+	z-index: 3;
+}
+
+.one:hover {
+	-webkit-animation: slide-up 1s forwards 1;
+	z-index: 3;
+}
+
+
+/* Webkits */
+
+@-webkit-keyframes slide-down {
+  0%  { opacity: 0; transform: translateY(0px)}
+  50%  { opacity: .5;}
+  100%  { opacity: 1; transform: translateY(75px);}
+
+}
+
+@-webkit-keyframes slide-up {
+  0%  { transform: translateY(0px)}
+  100%  { transform: translateY(-50px);}
+
+}
+

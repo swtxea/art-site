@@ -126,6 +126,8 @@ li.selected {
 /* Main Styles --------------------- */
 
 .nav-section {
+  postion: fixed;
+  top: 0;
   width: 300px;
   position: fixed;
   left: 0px;
@@ -165,7 +167,6 @@ li.selected {
 
 }
 
-
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
 
@@ -181,10 +182,48 @@ li.selected {
 .primary-content {
   width: auto;
   display: block;
+  margin-top: 50px;
   padding: 16px;
   background-color: #f2f2f2;
   margin-left: 300px;
 }
+
+.one {
+  float: left;
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.over {
+  position: relative;
+  display: block;
+  background: url("../img/title-overlay.png") no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.over-links-1 {
+  position: absolute;
+  bottom: 25px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.over-links-2 {
+  position: absolute;
+  bottom: 5px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
 
 .main-header {
   width: 200px;
