@@ -4,16 +4,19 @@
 }
 
 .one:hover .over {
-	-webkit-animation: gray-over 1s forwards 1;
+	-webkit-animation: gray-over .5s forwards 1;
 }
 
 .one:hover a {
-	-webkit-animation: slide-up 1.5s forwards 1;
+	-webkit-animation: slide-up 1s forwards 1;
 }
 
 .one:hover {
 	-webkit-animation: stretch 1.5s forwards 1;
 	z-index: 10;
+}
+
+.one:hover {
 }
 
 
@@ -53,5 +56,18 @@
   0%  { transform: translateY(32px);}
   100%  { transform: translateY(-50px); opacity: 1;}
 
+}
+
+@keyframes slide-up-b {
+  0% {
+    transform: scale(1,1);
+    opacity: 0
+  }
+  50% {
+  }
+  100% {
+    transform: scale(1,1.2);
+    opacity: 1;
+  }
 }
 
