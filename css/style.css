@@ -203,7 +203,7 @@ li.selected {
 
 .over {
   display: block;
-  background-color: red;
+  background: url("../img/title-overlay.png");
   background-size: contain;
   width: 200px;
   height: 300px;
@@ -213,7 +213,7 @@ li.selected {
 
 .over-links-1 {
   position: absolute;
-  bottom: 165px;
+  bottom: 32px;
   margin: auto;
   width: 100%;
   text-align: center;
@@ -221,7 +221,7 @@ li.selected {
 
 .over-links-2 {
   position: absolute;
-  bottom: 140px;
+  bottom: 0px;
   margin: auto;
   width: 100%;
   text-align: center;
