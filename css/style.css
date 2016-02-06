@@ -123,7 +123,11 @@ li:hover {
  
 }
 
-li.selected {
+.selected a {
+  color: white !important;
+}
+
+.selected {
   display: block;
   background-color: #cc3300 !important;
 }
