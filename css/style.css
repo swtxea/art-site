@@ -172,12 +172,16 @@ li:hover {
   padding-top: 0px;
   margin: 0;
   background-color: white !important;
+  z-index: 5;
 
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
 
+.dropdown-content {
+  z-index: 5;
+}
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 

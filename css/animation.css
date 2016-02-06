@@ -13,15 +13,14 @@
 
 .one:hover {
 	-webkit-animation: stretch 1.5s forwards 1;
-	z-index: 10;
 }
 
 .one:hover {
 }
 
-.primary-content .one {
+/*.primary-content .one {
 	-webkit-animation: turn 1s forwards 1;
-}
+}*/
 
 /* Webkits */
 @keyframes gray-over {
