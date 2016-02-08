@@ -201,6 +201,8 @@ li:hover {
 }
 
 .one {
+  box-shadow: 3px 3px 3px gray;
+  margin: 6px;
   float: left;
   height: 375px;
   width: 200px;
